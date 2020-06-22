@@ -11,10 +11,10 @@ stage('Build') {
 	catch(ex) {
 		println(ex)
 	}	
-	finally }
+	finally {
 	//
 	}
-	echo "Building with newfeature branch"
+	echo "Building with newfeature complete"
 }
 stage('Test') {
 	echo "Testing"
