@@ -1,5 +1,5 @@
 node{
-stage('Ready_SCM){
+stage('ReadySCM ) {
 	echo "SCM getting ready"
 }
 stage('Build') {
