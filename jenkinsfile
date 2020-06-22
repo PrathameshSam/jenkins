@@ -4,6 +4,7 @@ stage('Ready_SCM') {
 }
 stage('Build') {
 	echo "Building"
+	echo "Building with newfeature branch"
 }
 stage('Test') {
 	echo "Testing"
