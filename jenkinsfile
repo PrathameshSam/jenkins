@@ -1,9 +1,11 @@
 node{
 stage('Ready_SCM') {
 	echo "SCM getting ready"
+	echo "SCM ready for build"
 }
 stage('Build') {
 	echo "Building"
+<<<<<<< HEAD
 	try {
 		sh 'sh hello_world.sh'
 	}
@@ -13,6 +15,9 @@ stage('Build') {
 	finally }
 	//
 	}
+=======
+	echo "Building with newfeature branch"
+>>>>>>> 4930245779020bacd9a855a92c5f1dd605a98386
 }
 stage('Test') {
 	echo "Testing"
