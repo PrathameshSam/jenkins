@@ -1,6 +1,7 @@
 node{
 stage('Ready_SCM') {
 	echo "SCM getting ready"
+	echo "SCM ready for build"
 }
 stage('Build') {
 	echo "Building"
