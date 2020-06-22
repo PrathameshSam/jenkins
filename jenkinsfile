@@ -4,6 +4,15 @@ stage('Ready_SCM') {
 }
 stage('Build') {
 	echo "Building"
+	try {
+		sh 'sh hello_world.sh'
+	}
+	catch(ex) {
+		println(ex)
+	}	
+	finally }
+	//
+	}
 }
 stage('Test') {
 	echo "Testing"
